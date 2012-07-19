@@ -1,0 +1,286 @@
+SplineFontDB: 3.0
+FontName: Exo-Black
+FullName: Exo Black
+FamilyName: Exo
+Weight: Black
+Copyright: Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name "Exo"
+Version: 1.00
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+sfntRevision: 0x00010000
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+XUID: [1021 468 1637785848 2131625]
+FSType: 0
+OS2Version: 4
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1265665101
+ModificationTime: 1342721292
+PfmFamily: 17
+TTFWeight: 900
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 0 10 3 0 0 0 0 0 0
+OS2TypoAscent: 1002
+OS2TypoAOffset: 0
+OS2TypoDescent: -327
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1002
+OS2WinAOffset: 0
+OS2WinDescent: 326
+OS2WinDOffset: 0
+HheadAscent: 1002
+HheadAOffset: 0
+HheadDescent: -326
+HheadDOffset: 0
+OS2SubXSize: 650
+OS2SubYSize: 700
+OS2SubXOff: 0
+OS2SubYOff: 140
+OS2SupXSize: 650
+OS2SupYSize: 700
+OS2SupXOff: 0
+OS2SupYOff: 480
+OS2StrikeYSize: 49
+OS2StrikeYPos: 258
+OS2Vendor: 'PfEd'
+OS2CodePages: 20000093.00000000
+OS2UnicodeRanges: a00000ef.4000204b.00000000.00000000
+Lookup: 4 0 0 "'ordn' Ordinals lookup 0"  {"'ordn' Ordinals lookup 0 subtable"  } ['ordn' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals lookup 1"  {"'smcp' Lowercase to Small Capitals lookup 1 subtable"  } ['smcp' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 2"  {"'c2sc' Capitals to Small Capitals in Latin lookup 2 subtable"  } ['c2sc' ('latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 3"  {"'dlig' Discretionary Ligatures lookup 3 subtable"  } ['dlig' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures lookup 4"  {"'liga' Standard Ligatures lookup 4 subtable"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions lookup 5"  {"'frac' Diagonal Fractions lookup 5 subtable"  } ['frac' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions lookup 6"  {"'frac' Diagonal Fractions lookup 6 subtable"  } ['frac' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 7"  {"'frac' Diagonal Fractions lookup 7 subtable"  } ['frac' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 6 0 0 "'frac' Diagonal Fractions lookup 8"  {"'frac' Diagonal Fractions lookup 8 subtable"  } ['frac' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "'lnum' Lining Figures lookup 9"  {"'lnum' Lining Figures lookup 9 subtable"  } ['lnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 10"  {"Single Substitution lookup 10 subtable"  } ['    ' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 11"  {"'sinf' Scientific Inferiors lookup 11 subtable"  } ['sinf' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "'zero' Slashed Zero lookup 12"  {"'zero' Slashed Zero lookup 12 subtable"  } ['zero' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 1 0 0 "'numr' Numerators in Latin lookup 13"  {"'numr' Numerators in Latin lookup 13 subtable"  } ['numr' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'tnum' Tabular Numbers in Latin lookup 14"  {"'tnum' Tabular Numbers in Latin lookup 14 subtable"  } ['tnum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 15"  {"'onum' Oldstyle Figures in Latin lookup 15 subtable" ("oldstyle" ) } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 3 0 0 "'salt' Stylistic Alternatives in Latin lookup 16"  {"'salt' Stylistic Alternatives in Latin lookup 16 subtable"  } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'sups' Superscript lookup 17"  {"'sups' Superscript lookup 17 subtable" ("superior" ) } ['sups' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms lookup 18"  {"'case' Case-Sensitive Forms lookup 18 subtable"  } ['case' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'dnom' Denominators in Latin lookup 19"  {"'dnom' Denominators in Latin lookup 19 subtable"  } ['dnom' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0 kerning class 0"  "'kern' Horizontal Kerning lookup 0 kerning class 1"  "'kern' Horizontal Kerning lookup 0 kerning class 2"  "'kern' Horizontal Kerning lookup 0 kerning class 3"  "'kern' Horizontal Kerning lookup 0 kerning class 4"  "'kern' Horizontal Kerning lookup 0 kerning class 5"  } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 1"  {"'kern' Horizontal Kerning lookup 1 subtable"  } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'FRA ' 'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+KernClass2: 3 6 "'kern' Horizontal Kerning lookup 0 kerning class 0" 
+ 8 P p.smcp
+ 29 B uni1E02 b.smcp uni1E03.smcp
+ 21 comma period ellipsis
+ 208 A Agrave Aacute Acircumflex Atilde Adieresis Aring AE Amacron Abreve Aogonek a.smcp aogonek.smcp amacron.smcp aacute.smcp acircumflex.smcp atilde.smcp adieresis.smcp aring.smcp ae.smcp agrave.smcp abreve.smcp
+ 37 J Jcircumflex j.smcp jcircumflex.smcp
+ 15 X x.smcp X.salt
+ 49 M uni1E40 m.smcp uni1E41.smcp M.salt uni1E40.salt
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -160 {} -90 {} -50 {} -50 {} -40 {} 0 {} 0 {} -30 {} 0 {} -30 {} 0 {}
+KernClass2: 27 18 "'kern' Horizontal Kerning lookup 0 kerning class 1" 
+ 197 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek a.smcp aogonek.smcp amacron.smcp aacute.smcp acircumflex.smcp atilde.smcp adieresis.smcp aring.smcp agrave.smcp abreve.smcp
+ 22 quoteleft quotedblleft
+ 29 F uni1E1E f.smcp uni1E1F.smcp
+ 96 L Lacute Lcommaaccent Lcaron Lslash l.smcp lcommaaccent.smcp lcaron.smcp lacute.smcp lslash.smcp
+ 282 D O Q Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron Dcroat Omacron Ohungarumlaut uni1E0A d.smcp o.smcp q.smcp dcroat.smcp omacron.smcp ocircumflex.smcp otilde.smcp odieresis.smcp oslash.smcp eth.smcp ograve.smcp oacute.smcp dcaron.smcp ohungarumlaut.smcp uni1E0B.smcp
+ 89 T Tcommaaccent Tcaron uni1E6A t.smcp tbar.smcp tcaron.smcp tcommaaccent.smcp uni1E6B.smcp
+ 8 V v.smcp
+ 78 Y Yacute Ycircumflex Ygrave y.smcp ydieresis.smcp ygrave.smcp ycircumflex.smcp
+ 15 X x.smcp X.salt
+ 100 W Wcircumflex Wgrave Wacute Wdieresis w.smcp wgrave.smcp wacute.smcp wdieresis.smcp wcircumflex.smcp
+ 52 K Kcommaaccent kgreenlandic k.smcp kcommaaccent.smcp
+ 230 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek u.smcp uogonek.smcp uacute.smcp ucircumflex.smcp udieresis.smcp utilde.smcp umacron.smcp ugrave.smcp uring.smcp uhungarumlaut.smcp ubreve.smcp
+ 49 M uni1E40 m.smcp uni1E41.smcp M.salt uni1E40.salt
+ 122 S Sacute Scircumflex Scedilla Scaron uni1E60 s.smcp scaron.smcp germandbls.smcp sacute.smcp scedilla.smcp scircumflex.smcp
+ 100 P R Rcommaaccent Rcaron uni1E56 p.smcp r.smcp rcommaaccent.smcp racute.smcp rcaron.smcp uni1E57.smcp
+ 18 k kcommaaccent c_k
+ 78 v w y yacute ydieresis wcircumflex ycircumflex wacute wdieresis ygrave t_y f_y
+ 21 l lacute lcommaaccent
+ 33 f uni1E1F f_f f.salt uni1E1F.salt
+ 99 b o p ograve oacute ocircumflex otilde odieresis oslash thorn omacron ohungarumlaut uni1E03 uni1E57
+ 8 x x.salt
+ 44 s sacute scircumflex scedilla scaron uni1E61
+ 77 e ae egrave eacute ecircumflex edieresis emacron edotaccent eogonek ecaron oe
+ 28 r racute rcommaaccent rcaron
+ 55 h m n ntilde hcircumflex hbar nacute ncaron eng uni1E41
+ 49 g gcircumflex gbreve gdotaccent gcommaaccent.salt
+ 37 J Jcircumflex j.smcp jcircumflex.smcp
+ 107 S Sacute Scircumflex Scedilla Scaron uni1E60 s.smcp sacute.smcp scedilla.smcp scircumflex.smcp uni1E61.smcp
+ 49 M uni1E40 m.smcp uni1E41.smcp M.salt uni1E40.salt
+ 15 X x.smcp X.salt
+ 114 g gcircumflex gbreve gdotaccent gcommaaccent g.salt gbreve.salt gdotaccent.salt gcircumflex.salt gcommaaccent.salt
+ 15 colon semicolon
+ 134 hyphen equal uni00AD endash emdash minus hyphen.alt uni00AD.alt endash.alt emdash.alt hyphen.smcp uni00AD.smcp endash.smcp emdash.smcp
+ 8 x x.salt
+ 77 v w y yacute ydieresis wcircumflex ycircumflex wgrave wacute wdieresis ygrave
+ 278 c d e o q ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron edotaccent eogonek ecaron omacron ohungarumlaut oe uni1E0B c_t c_k c_h d.salt uni1E0B.salt dcroat.salt dcaron.salt
+ 44 s sacute scircumflex scedilla scaron uni1E61
+ 151 m n r u ntilde ugrave uacute ucircumflex udieresis nacute ncommaaccent ncaron eng racute rcommaaccent rcaron utilde umacron uring uhungarumlaut uni1E41
+ 74 f t tcommaaccent tcaron tbar uni1E1F uni1E6B f_f f_f_i ffl t_t f_t t_y f_y
+ 9 p uni1E57
+ 26 z zacute zdotaccent zcaron
+ 200 a agrave aacute acircumflex atilde adieresis aring ae amacron abreve aogonek a.salt agrave.salt aacute.salt atilde.salt aring.salt acircumflex.salt adieresis.salt aogonek.salt abreve.salt amacron.salt
+ 11 quotesingle
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -20 {} -10 {} 0 {} -30 {} 0 {} 0 {} 0 {} -80 {} 0 {} -70 {} 0 {} -30 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} -30 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} -20 {} 0 {} -25 {} 0 {} 0 {} 0 {} -25 {} -30 {} -30 {} -20 {} -30 {} -20 {} -20 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} -10 {} 0 {} -40 {} 0 {} 0 {} 0 {} -90 {} 0 {} -30 {} 0 {} -10 {} -70 {} -10 {} -20 {} 10 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -60 {} 0 {} -30 {} 0 {} -120 {} -30 {} -20 {} -95 {} -100 {} -160 {} -120 {} -110 {} -56 {} -95 {} -90 {} -120 {} 0 {} 0 {} -70 {} -20 {} -50 {} 0 {} -60 {} -30 {} 0 {} -30 {} -30 {} -95 {} -75 {} -55 {} -20 {} -40 {} -40 {} -70 {} 0 {} 0 {} -70 {} -30 {} -50 {} 0 {} -90 {} -30 {} 0 {} -55 {} -45 {} -120 {} -90 {} -50 {} -40 {} -70 {} -60 {} -100 {} 0 {} 0 {} 0 {} -20 {} 10 {} 0 {} -20 {} 0 {} -20 {} 0 {} -80 {} -45 {} -20 {} 0 {} -20 {} 0 {} 0 {} -40 {} 0 {} 0 {} -60 {} -10 {} -50 {} 0 {} -60 {} -30 {} -20 {} -30 {} -30 {} -85 {} -75 {} -55 {} -20 {} -40 {} -40 {} -70 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} -60 {} -70 {} -30 {} -10 {} -30 {} 0 {} -30 {} -40 {} 0 {} 0 {} -20 {} 0 {} -30 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -20 {} 0 {} 0 {} -40 {} -30 {} -20 {} 0 {} -20 {} -10 {} 0 {} -10 {} -20 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 10 {} -40 {} -30 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -60 {} -10 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} 10 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -20 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -10 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 20 {} -55 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -60 {} -10 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} -10 {} -20 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} -20 {} 10 {} 0 {} 10 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 10 {} 0 {} 10 {} 0 {} 0 {}
+KernClass2: 2 2 "'kern' Horizontal Kerning lookup 0 kerning class 2" 
+ 65 A Agrave Aacute Acircumflex Atilde Adieresis Aring Abreve Aogonek
+ 35 l lacute lcommaaccent lcaron lslash
+ 0 {} 0 {} 0 {} -15 {}
+KernClass2: 3 3 "'kern' Horizontal Kerning lookup 0 kerning class 3" 
+ 47 c ccedilla cacute ccircumflex cdotaccent ccaron
+ 125 C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron c.smcp ccaron.smcp ccedilla.smcp cacute.smcp cdotaccent.smcp ccircumflex.smcp
+ 322 c d e o q ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron edotaccent eogonek ecaron omacron ohungarumlaut oe g.salt gbreve.salt gdotaccent.salt gcircumflex.salt c_t c_k c_h d.salt uni1E0B.salt dcroat.salt dcaron.salt
+ 439 C G O Q Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Oslash Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Omacron OE c.smcp g.smcp o.smcp q.smcp gcommaaccent.smcp ccaron.smcp omacron.smcp ocircumflex.smcp otilde.smcp odieresis.smcp oslash.smcp ccedilla.smcp ograve.smcp oacute.smcp cacute.smcp ohungarumlaut.smcp oe.smcp gbreve.smcp cdotaccent.smcp ccircumflex.smcp gdotaccent.smcp gcircumflex.smcp
+ 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -10 {} -20 {}
+KernClass2: 3 5 "'kern' Horizontal Kerning lookup 0 kerning class 4" 
+ 73 a agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek
+ 123 a.salt agrave.salt aacute.salt atilde.salt aring.salt acircumflex.salt adieresis.salt aogonek.salt abreve.salt amacron.salt
+ 58 v w wcircumflex ycircumflex wgrave wacute wdieresis ygrave
+ 1 x
+ 1 y
+ 6 x.salt
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -5 {} -10 {} -5 {} 0 {} -15 {} -20 {} -10 {} -20 {}
+KernClass2: 2 2 "'kern' Horizontal Kerning lookup 0 kerning class 5" 
+ 303 A K M X Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek Kcommaaccent uni1E40 a.smcp k.smcp m.smcp x.smcp aogonek.smcp amacron.smcp aacute.smcp acircumflex.smcp atilde.smcp adieresis.smcp aring.smcp kcommaaccent.smcp agrave.smcp abreve.smcp uni1E41.smcp M.salt uni1E40.salt X.salt
+ 29 F uni1E1E f.smcp uni1E1F.smcp
+ 0 {} 0 {} 0 {} 0 {}
+KernClass2: 27 11 "'kern' Horizontal Kerning lookup 1 subtable" 
+ 197 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek a.smcp aogonek.smcp amacron.smcp aacute.smcp acircumflex.smcp atilde.smcp adieresis.smcp aring.smcp agrave.smcp abreve.smcp
+ 22 quoteleft quotedblleft
+ 29 F uni1E1E f.smcp uni1E1F.smcp
+ 96 L Lacute Lcommaaccent Lcaron Lslash l.smcp lcommaaccent.smcp lcaron.smcp lacute.smcp lslash.smcp
+ 282 D O Q Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron Dcroat Omacron Ohungarumlaut uni1E0A d.smcp o.smcp q.smcp dcroat.smcp omacron.smcp ocircumflex.smcp otilde.smcp odieresis.smcp oslash.smcp eth.smcp ograve.smcp oacute.smcp dcaron.smcp ohungarumlaut.smcp uni1E0B.smcp
+ 89 T Tcommaaccent Tcaron uni1E6A t.smcp tbar.smcp tcaron.smcp tcommaaccent.smcp uni1E6B.smcp
+ 8 V v.smcp
+ 78 Y Yacute Ycircumflex Ygrave y.smcp ydieresis.smcp ygrave.smcp ycircumflex.smcp
+ 15 X x.smcp X.salt
+ 100 W Wcircumflex Wgrave Wacute Wdieresis w.smcp wgrave.smcp wacute.smcp wdieresis.smcp wcircumflex.smcp
+ 52 K Kcommaaccent kgreenlandic k.smcp kcommaaccent.smcp
+ 230 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek u.smcp uogonek.smcp uacute.smcp ucircumflex.smcp udieresis.smcp utilde.smcp umacron.smcp ugrave.smcp uring.smcp uhungarumlaut.smcp ubreve.smcp
+ 49 M uni1E40 m.smcp uni1E41.smcp M.salt uni1E40.salt
+ 122 S Sacute Scircumflex Scedilla Scaron uni1E60 s.smcp scaron.smcp germandbls.smcp sacute.smcp scedilla.smcp scircumflex.smcp
+ 100 P R Rcommaaccent Rcaron uni1E56 p.smcp r.smcp rcommaaccent.smcp racute.smcp rcaron.smcp uni1E57.smcp
+ 18 k kcommaaccent c_k
+ 78 v w y yacute ydieresis wcircumflex ycircumflex wacute wdieresis ygrave t_y f_y
+ 21 l lacute lcommaaccent
+ 33 f uni1E1F f_f f.salt uni1E1F.salt
+ 99 b o p ograve oacute ocircumflex otilde odieresis oslash thorn omacron ohungarumlaut uni1E03 uni1E57
+ 8 x x.salt
+ 44 s sacute scircumflex scedilla scaron uni1E61
+ 77 e ae egrave eacute ecircumflex edieresis emacron edotaccent eogonek ecaron oe
+ 28 r racute rcommaaccent rcaron
+ 55 h m n ntilde hcircumflex hbar nacute ncaron eng uni1E41
+ 49 g gcircumflex gbreve gdotaccent gcommaaccent.salt
+ 453 C G O Q Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Oslash Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Omacron Ohungarumlaut OE c.smcp g.smcp o.smcp q.smcp gcommaaccent.smcp ccaron.smcp omacron.smcp ocircumflex.smcp otilde.smcp odieresis.smcp oslash.smcp ccedilla.smcp ograve.smcp oacute.smcp cacute.smcp ohungarumlaut.smcp oe.smcp gbreve.smcp cdotaccent.smcp ccircumflex.smcp gdotaccent.smcp gcircumflex.smcp
+ 94 T Tcommaaccent Tcaron Tbar uni1E6A t.smcp tbar.smcp tcaron.smcp tcommaaccent.smcp uni1E6B.smcp
+ 56 Y Ycircumflex Ygrave y.smcp ygrave.smcp ycircumflex.smcp
+ 8 V v.smcp
+ 218 E F Egrave Eacute Ecircumflex Edieresis Emacron Edotaccent Eogonek Ecaron uni1E1E e.smcp f.smcp emacron.smcp eacute.smcp eogonek.smcp edieresis.smcp edotaccent.smcp egrave.smcp ecircumflex.smcp ecaron.smcp uni1E1F.smcp
+ 52 quoteright quotesinglbase quotedblright quotedblbase
+ 208 A Agrave Aacute Acircumflex Atilde Adieresis Aring AE Amacron Abreve Aogonek a.smcp aogonek.smcp amacron.smcp aacute.smcp acircumflex.smcp atilde.smcp adieresis.smcp aring.smcp ae.smcp agrave.smcp abreve.smcp
+ 21 comma period ellipsis
+ 100 W Wcircumflex Wgrave Wacute Wdieresis w.smcp wgrave.smcp wacute.smcp wdieresis.smcp wcircumflex.smcp
+ 194 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek u.smcp uacute.smcp ucircumflex.smcp udieresis.smcp utilde.smcp umacron.smcp uhungarumlaut.smcp ubreve.smcp
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -95 {} -140 {} -130 {} -30 {} -90 {} 0 {} 0 {} -125 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} -150 {} 0 {} 0 {} 0 {} -30 {} -110 {} -90 {} -115 {} 0 {} -100 {} 0 {} -20 {} -80 {} -35 {} 0 {} -5 {} -20 {} -50 {} -35 {} -20 {} -30 {} -45 {} -65 {} -45 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -20 {} 0 {} -115 {} -80 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -40 {} 0 {} -140 {} -105 {} 0 {} 0 {} 0 {} -65 {} 0 {} 0 {} 0 {} -40 {} 0 {} -150 {} -135 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} -40 {} 0 {} -125 {} -105 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -40 {} 0 {} 0 {} 0 {} -20 {} -30 {} -60 {} -50 {} -20 {} -40 {} 0 {} -15 {} -50 {} -20 {} 0 {} 0 {} -30 {} -30 {} -10 {} 0 {} 0 {} -30 {} 0 {} -15 {} 0 {} 0 {} -20 {} 0 {} -40 {} -30 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -105 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -85 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {}
+ChainSub2: coverage "'frac' Diagonal Fractions lookup 8 subtable"  0 0 0 1
+ 1 1 0
+  Coverage: 149 zero.numerator one.numerator two.numerator three.numerator four.numerator five.numerator six.numerator seven.numerator eight.numerator nine.numerator
+  BCoverage: 184 slash fraction zero.denominator one.denominator two.denominator three.denominator four.denominator five.denominator six.denominator seven.denominator eight.denominator nine.denominator
+ 1
+  SeqLookup: 0 "Single Substitution lookup 10" 
+EndFPST
+TtTable: prep
+PUSHW_1
+ 511
+SCANCTRL
+PUSHB_1
+ 4
+SCANTYPE
+EndTTInstrs
+ShortTable: maxp 16
+  1
+  0
+  730
+  102
+  7
+  0
+  0
+  2
+  0
+  1
+  1
+  0
+  64
+  0
+  0
+  0
+EndShort
+LangName: 1033 "" "" "" "FontForge 2.0 : Exo Black : 3-2-2012" "" "" "" "" "" "Natanael Gama" "" "" "www.ndiscovered.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+GaspTable: 1 65535 15 1
+Encoding: Custom
+UnicodeInterp: none
+NameList: Adobe Glyph List
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 0 8 2
+BeginChars: 2 2
+
+StartChar: A
+Encoding: 0 65 0
+Width: 711
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+25 0 m 1,0,-1
+ 254 732 l 1,1,-1
+ 483 732 l 1,2,-1
+ 705 0 l 1,3,-1
+ 506 0 l 1,4,-1
+ 463 128 l 1,5,-1
+ 266 128 l 1,6,-1
+ 224 0 l 1,7,-1
+ 25 0 l 1,0,-1
+310 293 m 1,8,-1
+ 424 293 l 1,9,-1
+ 371 489 l 1,10,-1
+ 310 293 l 1,8,-1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 2 subtable" a.smcp
+EndChar
+
+StartChar: A.go
+Encoding: 1 -1 1
+Width: 711
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+25 0 m 1,0,-1
+ 254 732 l 1,1,-1
+ 483 732 l 1,2,-1
+ 705 0 l 1,3,-1
+ 634 0 l 1,4,-1
+ 591 128 l 1,5,-1
+ 146 128 l 1,6,-1
+ 104 0 l 1,7,-1
+ 25 0 l 1,0,-1
+188 269 m 1,8,-1
+ 514 261 l 1,9,-1
+ 368 669 l 1,10,-1
+ 188 269 l 1,8,-1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont
