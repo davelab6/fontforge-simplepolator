@@ -34,6 +34,12 @@
 # A simple macro to interpolate compatible glyphs inside FontLab.
 # To easily apply the Gunnlaugur SE Briem's method
 # http://66.147.242.192/~operinan/2/2.3.3a/2.3.3.02.tests.htm
+"""
+A FontForge plug-in to generate 5 interpolated instances from 2 characters.
+
+Copy to ~/.FontForge/python/ and then find "Simplepolator" in the Tools menu,
+active when 2 characters are selected.
+"""
 
 import fontforge
 
