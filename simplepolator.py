@@ -62,11 +62,12 @@ def simplepolate(registerobject, font):
 		fontforge.postError("Bad value", "Expected whole number")
 
 	# figure out the interpolation amount floats based on how many children the user requested
-	interpolationamount = []
+	interpolationamount = [0.0]
 	calcamount = amount +1
 	x = 1.0 / calcamount
 	for y in range(1, calcamount):
 		interpolationamount.append(x*y)
+	interpolationamount.append(1.0)
 
 	# get the souce glyphs from the selection -- this should be simpler...
 	glyphs = []
@@ -81,7 +82,7 @@ def simplepolate(registerobject, font):
 	name = fontforge.askString("Simple Glyph Interpolation", "Children names?", str(name))
 
 	# create all the children
-	for x in range(amount):
+	for x in range(amount+2):
 		glyphname = str(name) + '.'+ str(x+1)
 		g = font.createChar(-1, glyphname)
 		g.preserveLayerAsUndo(1)
