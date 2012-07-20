@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# FontForge Simplepolator V0.1-git
+# FontForge Simplepolator V0.2-git
 #
 # Copyright (c) 2012, Dave Crossland (dave@understandingfonts.com)
+# Copyright (c) 2012, Michal Nowakowski (miszka@limes.com.pl)
 #
 #   Redistribution and use in source and binary forms, with or without
 #   modification, are permitted provided that the following conditions are met:
@@ -27,15 +28,13 @@
 #   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 #   OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-#
-# Inspired by the Simplepolator FontLab/RoboFont script 
-# by Pablo Impallari  - www.impallari.com/projects/overview/simplepolation
-#
-# A simple macro to interpolate compatible glyphs inside FontLab.
-# To easily apply the Gunnlaugur SE Briem's method
-# http://66.147.242.192/~operinan/2/2.3.3a/2.3.3.02.tests.htm
 """
-A FontForge plug-in to generate 5 interpolated instances from 2 characters.
+A FontForge plug-in to generate interpolated instances from 2 characters.
+
+Inspired by the Simplepolator FontLab/RoboFont script by Pablo Impallari
+found at http://www.impallari.com/projects/overview/simplepolation
+to easily apply the Gunnlaugur SE Briem's method
+http://66.147.242.192/~operinan/2/2.3.3a/2.3.3.02.tests.htm
 
 Copy to ~/.FontForge/python/ and then find "Simplepolator" in the Tools menu,
 active when 2 characters are selected.
@@ -54,35 +53,47 @@ def note(message):
 	print str(message)
 
 def simplepolate(registerobject, font):
-	note("get the first 2 glyphs")
-	font = fontforge.activeFont()
+	# Ask user how many children to create, default is 5
+	amount = 5
+	s = fontforge.askString("Simple Glyph Interpolation", "How many children?", str(amount))
+	try:
+		amount = int(s)
+	except:
+		fontforge.postError("Bad value", "Expected whole number")
+
+	# figure out the interpolation amount floats based on how many children the user requested
+	interpolationamount = []
+	calcamount = amount +1
+	x = 1.0 / calcamount
+	for y in range(1, calcamount):
+		interpolationamount.append(x*y)
+
+	# get the souce glyphs from the selection -- this should be simpler...
 	glyphs = []
 	for g in font.selection.byGlyphs:
-	  glyphs.append(g)
+		glyphs.append(g)
 	source1 = glyphs[0]
 	source2 = glyphs[1]
 
-	note("interpolate 3 new glyphs")
-	try: 
-		out1 = font.createInterpolatedGlyph(source1,source2,0.25)
-		out2 = font.createInterpolatedGlyph(source1,source2,0.50)
-		out3 = font.createInterpolatedGlyph(source1,source2,0.75)
-	except EnvironmentError as string:
-		note(str(string))
+	# get a name for the children
+	# would be nice to make the default name a gibberish() name :)
+	name = "interpolation"
+	name = fontforge.askString("Simple Glyph Interpolation", "Children names?", str(name))
 
-	note("create 5 new characters")
-	for x in range(1,6):
-		font.createChar(-1,"interpolation.%s" % x)
-
-	note("create 5 new glyphs")
-	try:
-		copyAndPaste(font, source1, "interpolation.1")
-		copyAndPaste(font, out1, "interpolation.2")
-		copyAndPaste(font, out2, "interpolation.3")
-		copyAndPaste(font, out3, "interpolation.4")
-		copyAndPaste(font, source2, "interpolation.5")
-	except:
-		pass
+	# create all the children
+	for x in range(amount):
+		glyphname = str(name) + '.'+ str(x+1)
+		g = font.createChar(-1, glyphname)
+		g.preserveLayerAsUndo(1)
+		# interpolate the top layer
+		g.layers[1] = source1.layers[1].interpolateNewLayer(source2.layers[1], interpolationamount[x])
+		# interpolate the width
+		g.width = source1.width + (source2.width - source1.width)*interpolationamount[x]
+		# interpolate the vwidth
+		g.vwidth = source1.vwidth + (source2.vwidth - source1.vwidth)*interpolationamount[x]
+		# let folks know what we did
+		message = "Simplepolator: Born '%s' that is %spc '%s' and %spc '%s'" % (glyphname, int(100-interpolationamount[x]*100), source1.glyphname, int(interpolationamount[x]*100), source2.glyphname)
+		note(message)
 
 # Only enable Tool menu item if 2 characters are selected
 def shouldWeAppear(registerobject, font):
