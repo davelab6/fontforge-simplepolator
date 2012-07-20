@@ -76,9 +76,11 @@ def simplepolate(registerobject, font):
 	source1 = glyphs[0]
 	source2 = glyphs[1]
 
-	# get a name for the children
-	# would be nice to make the default name a gibberish() name :)
-	name = "interpolation"
+	# get a name for the children - font-name-generator.py supplies gibberish() so if we have that available, lets use it
+	if gibberish: 
+		name = gibberish(1)
+	else:
+		name = "interpolation"
 	name = fontforge.askString("Simple Glyph Interpolation", "Children names?", str(name))
 
 	# create all the children
