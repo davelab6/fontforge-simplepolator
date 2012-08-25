@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# FontForge Simplepolator V0.2-git
+# FontForge Simplepolator V0.1
 #
 # Copyright (c) 2012, Dave Crossland (dave@understandingfonts.com)
 # Copyright (c) 2012, Michal Nowakowski (miszka@limes.com.pl)
@@ -80,7 +80,7 @@ def simplepolate(registerobject, font):
 	if gibberish: 
 		name = gibberish(1)
 	else:
-		name = "interpolation"
+		name = "simplepolation"
 	name = fontforge.askString("Simple Glyph Interpolation", "Children names?", str(name))
 
 	# create all the children
@@ -95,7 +95,7 @@ def simplepolate(registerobject, font):
 		# interpolate the vwidth
 		g.vwidth = source1.vwidth + (source2.vwidth - source1.vwidth)*interpolationamount[x]
 		# let folks know what we did
-		message = "Simplepolator: Born '%s' that is %spc '%s' and %spc '%s'" % (glyphname, int(100-interpolationamount[x]*100), source1.glyphname, int(interpolationamount[x]*100), source2.glyphname)
+		message = "Simplepolator created '%s' that is %s%% '%s' and %s%% '%s'" % (glyphname, int(100-interpolationamount[x]*100), source1.glyphname, int(interpolationamount[x]*100), source2.glyphname)
 		note(message)
 
 # Only enable Tool menu item if 2 characters are selected
