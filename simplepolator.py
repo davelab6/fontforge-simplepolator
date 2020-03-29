@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # FontForge Simplepolator V0.1
 #
@@ -50,7 +50,7 @@ def copyAndPaste(font, source, target):
 
 def note(message):
 	fontforge.logWarning(str(message))
-	print str(message)
+	print(str(message))
 
 def simplepolate(registerobject, font):
 	# Ask user how many children to create, default is 5
@@ -77,9 +77,9 @@ def simplepolate(registerobject, font):
 	source2 = glyphs[1]
 
 	# get a name for the children - font-name-generator.py supplies gibberish() so if we have that available, lets use it
-	if gibberish: 
+	try: 
 		name = gibberish(1)
-	else:
+	except Exception as e:
 		name = "simplepolation"
 	name = fontforge.askString("Simple Glyph Interpolation", "Children names?", str(name))
 
